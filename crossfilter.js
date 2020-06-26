@@ -1,4 +1,4 @@
-// https://crossfilter.github.io/crossfilter/ v1.5.2 Copyright 2020 Mike Bostock
+// https://crossfilter.github.io/crossfilter/ v1.5.2-1 Copyright 2020 Mike Bostock
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
@@ -1903,7 +1903,7 @@
         : 0x100000000;
   }
 
-  var version = "1.5.2";
+  var version = "1.5.2-1";
 
   // Note(cg): exporting current version for umd build.
   crossfilter.version = version;
